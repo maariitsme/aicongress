@@ -1,0 +1,19 @@
+header>div>h3 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.buttons {
+    width: 100%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons>button {
+    width: 100px;
+}
+
+.overview {
+    font-size: 17px
+}

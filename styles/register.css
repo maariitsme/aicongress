@@ -1,0 +1,259 @@
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+    h4,
+    .btn {
+        margin: 0 auto 10px auto;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+    
+    body {
+        padding: 1em;
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        color: #b9b9b9;
+        background: url("../images/register.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    h4 {
+        color: black
+    }
+    
+    .input {
+        width: 100%;
+        padding: 1em;
+        line-height: 1.4;
+        background-color: #f9f9f9;
+        border: 1px solid #e5e5e5;
+        border-radius: 3px;
+        -webkit-transition: 0.35s ease-in-out;
+        -moz-transition: 0.35s ease-in-out;
+        -o-transition: 0.35s ease-in-out;
+        transition: 0.35s ease-in-out;
+        transition: all 0.35s ease-in-out;
+    }
+    
+    .input:focus {
+        outline: 0;
+        border-color: #7ed321;
+    }
+    
+    .input:focus+.input-icon i {
+        color: #7ed321;
+    }
+    
+    .input:focus+.input-icon:after {
+        border-right-color: #7ed321;
+    }
+    
+    .input-group {
+        margin-bottom: 1em;
+        zoom: 1;
+    }
+    
+    .input-group:before,
+    .input-group:after {
+        content: "";
+        display: table;
+    }
+    
+    .input-group:after {
+        clear: both;
+    }
+    
+    .input-group-icon {
+        position: relative;
+    }
+    
+    .input-group-icon .input {
+        padding-left: 4.4em;
+    }
+    
+    .input-group-icon .input-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3.4em;
+        height: 3.4em;
+        line-height: 3.4em;
+        text-align: center;
+        pointer-events: none;
+    }
+    
+    .input-group-icon .input-icon:aftcer {
+        position: absolute;
+        top: 0.6em;
+        bottom: 0.6em;
+        left: 3.4em;
+        display: block;
+        border-right: 1px solid #e5e5e5;
+        content: "";
+        -webkit-transition: 0.35s ease-in-out;
+        -moz-transition: 0.35s ease-in-out;
+        -o-transition: 0.35s ease-in-out;
+        transition: 0.35s ease-in-out;
+        transition: all 0.35s ease-in-out;
+    }
+    
+    .input-group-icon .input-icon i {
+        -webkit-transition: 0.35s ease-in-out;
+        -moz-transition: 0.35s ease-in-out;
+        -o-transition: 0.35s ease-in-out;
+        transition: 0.35s ease-in-out;
+        transition: all 0.35s ease-in-out;
+    }
+    
+    .container {
+        max-width: 38em;
+        padding: 1em 3em 2em 3em;
+        margin: 8em auto;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 4.2px;
+        box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+        /* add border */
+    }
+    
+    .row {
+        zoom: 1;
+    }
+    
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+    }
+    
+    .row:after {
+        clear: both;
+    }
+    
+    .col-half {
+        padding-right: 10px;
+        float: left;
+        width: 50%;
+    }
+    
+    .col-half:last-of-type {
+        padding-right: 0;
+    }
+    
+    .col-third {
+        padding-right: 10px;
+        float: left;
+        width: 33.33333333%;
+    }
+    
+    .col-third:last-of-type {
+        padding-right: 0;
+    }
+    
+    @media only screen and (max-width: 540px) {
+        .col-half {
+            width: 100%;
+            padding-right: 0;
+        }
+    }
+    
+    #tel,
+    .tel {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* width: 3.4em; */
+        width: 30px;
+        height: 3.4em;
+        line-height: 3.4em;
+        text-align: center;
+    }
+    
+    .tel>input {
+        width: 60px;
+        padding: 1em;
+        line-height: 1.4;
+        background-color: #f9f9f9;
+        border: 1px solid #e5e5e5;
+        border-radius: 3px;
+    }
+    
+    .tel>input:focus {
+        outline: 0;
+        border-color: #7ed321;
+    }
+    
+    .tel>input:focus~#phone {
+        outline: 0;
+        border-color: #7ed321;
+    }
+    
+    nav {
+        background: inherit;
+        font-family: 'CG Omega Regular';
+        color: aliceblue;
+        height: auto;
+        flex-direction: column;
+        text-shadow: 1.8px 1.8px 20px rgba(29, 28, 27, 0.5);
+    }
+    
+    .navbar-brand {
+        color: white;
+        font-size: 3em;
+        /* align-content: center; */
+    }
+    
+    @font-face {
+        font-family: 'CG Omega Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('CG Omega Regular'), url('../fonts/cgor45w.woff') format('embedded-opentype');
+    }
+    
+    h4 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 1.5em;
+        color: black;
+        text-shadow: 1.5px 1.5px rgba(224, 115, 43, 0.5);
+    }
+    
+    h4>span {
+        display: block;
+        text-align: center;
+    }
+    
+    .hosted {
+        font-size: 16px;
+    }
+    
+    input:focus {
+        background-color: rgba(6, 252, 199, 0.1);
+    }
+    
+    .modal-title {
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .modal-body {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .presents {
+        color: #005700;
+        text-shadow: 1px 1px 1px rgba(43, 167, 224, 0.8);
+    }

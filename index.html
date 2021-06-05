@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International AI Congress</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.6/css/intlTelInput.css">
+    <!-- <link rel="stylesheet" href="styles/index.css"> -->
+    <!-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles/small.css"> -->
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="styles/register-mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar  fixed-top">
+        <span class="navbar-brand mx-auto" href="#">CVR COLLEGE OF ENGINEERING</span>
+        <span class="hosted" style="float: left;" class="mx-auto"> Department of Computer Science and Engineering </span>
+    </nav>
+
+    <div class="container">
+        <form onsubmit="return register()" id="form">
+            <div class="row">
+                <h4>
+                    <span> International AI Congress </span>
+                    <span class="presents">presents</span>
+                    <span class="excellence">AI for Excellence</span>
+
+                    
+                </h4>
+                <div class="input-group input-group-icon">
+                    <input type="text" id="name" class="input" placeholder="Name" required/>
+                    <div class="input-icon"><i class="fa fa-user"></i></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="email" id="email" placeholder="Email Address" class="input form-control" required/>
+                    <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                    <small id="emailvalid" class="form-text
+                text-muted invalid-feedback text-danger">
+                    Your email must be a valid email
+              </small>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="text" id="designation" placeholder="Designation" class="input " required>
+                    <div class="input-icon"><i class="fa fa-address-card"></i></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="number" id="phone" class="input " placeholder="Phone Number" required>
+                    <div class="tel ">
+
+                        <input type="number " id="tel " value="+91" required>
+                    </div>
+                </div>
+                <div class="input-group input-group-icon ">
+                    <input type="text " id="organization" placeholder="Institution / Organization " class="input " required>
+                    <div class="input-icon "><i class="fa fa-building "></i></div>
+                </div>
+                <div class="input-group input-group-icon ">
+                    <input type="text " id="location" class="input " placeholder="Location " required>
+                    <div class="input-icon "><i class="fa fa-map-marker-alt "></i></div>
+                </div>
+                <div class="input-group input-group-icon ">
+                    <input type="text " id="area" class="input " placeholder="Area of Interest " required>
+                    <div class="input-icon "><i class="fa fa-list-alt "></i></div>
+                </div>
+
+            </div>
+
+            <div class="row ">
+                <div class="input-group ">
+                    <button class="btn btn-primary ">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h5 class="modal-title" id="exampleModalLabel">Registration successful</h5>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body ">
+                    <div class="gif mx-auto"> <img src="./images/success.gif" alt=""></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="failModal" tabindex="-1" role="dialog" aria-labelledby="failModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h5 class="modal-title" id="failModalLabel">Data already exist</h5>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body ">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+    <script defer src="bootstrap/js/bootstrap.js "></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js "></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js "></script>
+    <script defer src="scripts/database.js "></script>
+
+</body>
+
+</html>
