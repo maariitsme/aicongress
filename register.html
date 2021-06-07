@@ -21,37 +21,48 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light fixed-top" id="navbarid">
-            <a class="navbar-brand" href="#"><img src="./images/cvr-logo.jpg" class="logo" alt="" /></a>
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbarid">
+            <!-- <a class="navbar-brand" href="#"><img src="./images/brand.jpeg" class="logo" alt="" /></a> -->
+            <a class="navbar-brand" href="#"><img src="./images/brand.png" class="logo" alt="" /></a>
             <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="white-text"><i class="fas fa-bars fa-1x"></i></span>
         </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#keynote">KeyNote</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Expert Lectures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Panel Discussions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MoU's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product Exhibits</a>
+                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#overview">Overview <span class="sr-only">(current)</span></a
+                        <a class="nav-link" href="#overview">About <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#keynote">KeyNote</a>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#speakers">Speakers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ProductExhibits</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <hr />
 
-        <div class="banner">
+        <!-- <div class="banner">
+
             <h3>
+
                 International AI Congress
                 <br />
                 <span> Presents</span>
@@ -61,12 +72,31 @@
                 <span>25<sup>th</sup> , 26<sup>th</sup> June  2021</span>
                 <div class="buttons">
                     <button id="register" class="btn btn-lg">Register</button>
-                    <button id="join" class="btn btn-lg">Join</button>
+                     <button id="join" class="btn btn-lg">Join</button> 
                 </div>
             </h3>
+        </div> -->
+        <div class="blue">
+            <div class="color">
+                <img src="./images/logo.png" class="collegeName" alt="">
+                <span>INTERNATIONAL</span>
+                <span class="bg-color">AI CONGRESS</span>
+            </div>
+            <div class="color2">
+                <span style="font-style:italic">PRESENTS</span>
+                <span class="bg-color2">AI FOR EXCELLENCE</span>
+                <span class="bg-color3">DURING 25th, 26th JUNE 2021</span>
+                <small>Hosted By</small>
+                <span class="department">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</span>
+            </div>
+            <div class="buttons">
+                <button id="register" class="btn btn-lg">Register</button>
+                <!-- <button id="join" class="btn btn-lg disable">Join</button> -->
+            </div>
         </div>
     </header>
     <main>
+
         <div id="overview">
             <p></p>
         </div>
@@ -230,7 +260,7 @@
         <div></div>
         <a class="top" href="#"><i class="fas fa-arrow-up"></i></a>
     </main>
-    <footer>
+    <footer id="contact">
         <div class="footer">
             <div>
                 <i class="fab fa-twitter"></i></i><a href="https://twitter.com/cvrcoenews" target="_blank"> @cvrcoenews</a>
@@ -244,6 +274,7 @@
         </div>
 
     </footer>
+
     <!-- & scripts -->
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script defer src="bootstrap/js/bootstrap.js"></script>
@@ -257,5 +288,7 @@
         var s = skrollr.init();
     </script> -->
 </body>
+
+</html>
 
 </html>

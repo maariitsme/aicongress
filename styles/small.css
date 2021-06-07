@@ -3,9 +3,18 @@ header>div>h3 {
     font-size: 40px;
 }
 
+.collegeName {
+    width: 90%;
+    height: 100px;
+}
+
+.color {
+    font-size: 2.6rem;
+}
+
 .buttons {
     width: 100%;
-    margin: 60px auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -16,4 +25,17 @@ header>div>h3 {
 
 .overview {
     font-size: 17px
+}
+
+.bg-color3 {
+    font-size: 1.2rem;
+}
+
+.bg-color2 {
+    font-size: 2rem;
+}
+
+.department {
+    text-align: center;
+    font-size: 1.2rem;
 }
