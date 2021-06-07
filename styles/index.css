@@ -13,7 +13,10 @@
 html {
     scroll-behavior: smooth;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 a:hover {
     text-decoration: none;
     color: inherit;
@@ -72,12 +75,23 @@ header>div>h3 {
 #speakers>p {
     height: 10vh;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .overview {
-    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
     width: 100%;
     font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    box-sizing: border-box;
+}
+.overview-container,#speakers{
+    /* background-color: #0070cc54; */
+    /* color: rgb(255, 255, 255); */
+    
 }
 
 .overview>h3 {
@@ -247,7 +261,6 @@ footer {
     justify-content: space-around;
     width: 100%;
 }
-
 .footer>div>a {
     color: rgb(172, 198, 221);
 }
@@ -285,6 +298,7 @@ footer {
     background-color: #0000FF;
     padding: 2px 20px 2px 20px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .bg-color2 {
@@ -292,23 +306,73 @@ footer {
     color: #0b0b83;
     border-radius: 10px;
     font-size: 3rem;
-    padding: 2px 20px 2px 20px
+    padding: 2px 20px 2px 20px;
+    text-align: center;
 }
 
 .bg-color3 {
     background-color: #06065e;
     border-radius: 10px;
-    padding: 2px 20px 2px 20px
+    padding: 2px 20px 2px 20px;
+    text-align: center;
 }
 
-.color>img {
+/* .color>img {
     height: 100px;
-}
+} */
 
 .blue {
-    margin-top: 8vh;
+    min-height: 65vh;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .blue span {
     margin-bottom: 10px;
+}
+.department{
+    text-align: center;
+    width: 100%;
+}
+.collegeName{
+    width: 50%;
+    min-width: 300px;
+    display: block;
+    margin: 8vh auto;
+}
+
+.expert >.speaker{
+
+}
+.howToAttend-container{
+    text-align: center;
+    padding: 1rem
+
+}
+.howToAttend{
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.attend{
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    background-color: rgba(0, 60, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.attend>img{
+    height: 100px;
+    width: 100px;
 }

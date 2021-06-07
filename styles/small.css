@@ -1,11 +1,11 @@
-header>div>h3 {
+/* header>div>h3 {
     margin-top: 30px;
     font-size: 40px;
-}
+} */
 
 .collegeName {
     width: 90%;
-    height: 100px;
+    height: auto;
 }
 
 .color {
@@ -38,4 +38,7 @@ header>div>h3 {
 .department {
     text-align: center;
     font-size: 1.2rem;
+}
+.blue{
+    letter-spacing:2px;
 }

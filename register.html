@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles/small.css" />
+    <link rel="stylesheet" media="screen and (max-width: 650px)" href="styles/small.css" />
 </head>
 
 <body>
@@ -36,16 +36,16 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Expert Lectures</a>
+                        <a class="nav-link" href="#expert">Expert Lectures</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Panel Discussions</a>
+                        <a class="nav-link" href="#panel">Panel Discussions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MoU's</a>
+                        <a class="nav-link" href="#mous">MoU's</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Product Exhibits</a>
+                        <a class="nav-link" href="#exhibts">Product Exhibits</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#overview">About <span class="sr-only">(current)</span></a
@@ -76,11 +76,12 @@
                 </div>
             </h3>
         </div> -->
+        <div class="collegeLogo">
+            <img src="./images/logo.png" class="collegeName" alt="">
+        </div>
         <div class="blue">
             <div class="color">
-                <img src="./images/logo.png" class="collegeName" alt="">
-                <span>INTERNATIONAL</span>
-                <span class="bg-color">AI CONGRESS</span>
+                <span class="bg-color">INTERNATIONAL AI CONGRESS</span>
             </div>
             <div class="color2">
                 <span style="font-style:italic">PRESENTS</span>
@@ -97,6 +98,7 @@
     </header>
     <main>
 
+       <div class="overview-container">
         <div id="overview">
             <p></p>
         </div>
@@ -104,8 +106,6 @@
             <h3 class="text-underline">
                 ABOUT THE EVENT
             </h3>
-            <!-- data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:500px;" -->
-            <!-- data-center-center="opacity:1;" data-0-bottom="opacity:0;" -->
             <div>
                 <p>
                     The world of Technology has revolutionized many market fields like Manufacturing, IT, health care, and many more. With the wade of Artificial Intelligence (AI) into technology, the market and industry are witnessing disruptions that are leading to unprecedented
@@ -128,13 +128,14 @@
                 </p>
             </div>
         </div>
+       </div>
         <div id="speakers">
             <p></p>
         </div>
         <div class="speaker-container">
             <h1 class="text-underline">Speakers</h1>
-            <h3>Expert Lectures</h3>
-            <div class="speakers">
+            <h3 id="expert">Expert Lectures</h3>
+            <div class="speakers expert">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
                     <div class="speaker-img">
                         <img src="./images/speakers/Kamakshi Prasad.jpeg" alt="Luis Serrano" />
@@ -173,8 +174,8 @@
                     <div class="speaker-designation">Professor, IIIT-Hyderabad</div>
                 </div>
             </div>
-            <h3>Panel Discussions</h3>
-            <div class="speakers">
+            <h3 id="panel">Panel Discussions</h3>
+            <div class="speakers panel">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
                     <div class="speaker-img">
                         <img src="./images/speakers/Sriram Somanchi.jpeg" alt="Luis Serrano" />
@@ -211,8 +212,8 @@
                     <div class="speaker-designation">University of Copenhagen</div>
                 </div>
             </div>
-            <h3>MoUs</h3>
-            <div class="speakers">
+            <h3 id="mous">MoUs</h3>
+            <div class="speakers mous">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
                     <div class="speaker-img">
                         <img src="./images/speakers/David Windridge.jpeg" alt="Luis Serrano" />
@@ -230,8 +231,8 @@
                     </div>
                 </div>
             </div>
-            <h3>Exhibits</h3>
-            <div class="speakers">
+            <h3 id="exhibts">Exhibits</h3>
+            <div class="speakers exhibts">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
                     <div class="speaker-img">
                         <img src="./images/speakers/Shivaramlinga Reddy.jpeg" alt="Luis Serrano" />
@@ -251,6 +252,27 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="howToAttend-container">
+            <h3 class="text-underline">HOW TO ATTEND</h3>
+            <div class="howToAttend ">
+                <div class="attend   ">
+                    <img src="./images/register-undraw.svg" alt="">
+                    <h5>1. Register</h5>
+                    <p>Register with your email and phone number</p>
+                </div>
+                <div class="attend ">
+                    <img src="./images/login.svg" alt="">
+                    <h5>2. Join</h5>
+                    <p>Click on join and enter your email previously registered</p>
+                </div>
+                <div class="attend ">
+                    <img src="./images/attend.svg" alt="">
+                    <h5>3. Attend</h5>
+                    <p>Join the session </p>
+                </div>
+            </div>
+
         </div>
 
         <div class="map">
@@ -283,10 +305,6 @@
     <script defer src="./scripts/query.js"></script>
     <script defer src="./scripts/vanilla-tilt.min.js"></script>
     <script defer src="./scripts/mobile.js"></script>
-    <!-- <script src="./scripts/skrollr.min.js"></script>
-    <script>
-        var s = skrollr.init();
-    </script> -->
 </body>
 
 </html>
