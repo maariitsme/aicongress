@@ -1,8 +1,3 @@
-/* header>div>h3 {
-    margin-top: 30px;
-    font-size: 40px;
-} */
-
 .collegeName {
     width: 90%;
     height: auto;
@@ -39,6 +34,17 @@
     text-align: center;
     font-size: 1.2rem;
 }
-.blue{
-    letter-spacing:2px;
+
+.blue {
+    letter-spacing: 2px;
+}
+
+.footer>div:nth-child(2) {
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.committee {
+    overflow: scroll;
 }

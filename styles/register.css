@@ -257,3 +257,7 @@
         color: #005700;
         text-shadow: 1px 1px 1px rgba(43, 167, 224, 0.8);
     }
+    
+    .navbar-brand {
+        cursor: pointer;
+    }

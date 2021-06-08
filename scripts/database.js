@@ -30,6 +30,10 @@ function add(js) {
     $('#successModal').modal('show');
 }
 
+function redirect() {
+    window.location = "/public/index.html";
+}
+
 function getData() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
