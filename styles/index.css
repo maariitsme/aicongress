@@ -78,6 +78,7 @@ nav a:hover {
     min-height: 70vh;
     width: 100%;
     font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    color:blue;
     box-sizing: border-box;
 }
 
@@ -433,6 +434,10 @@ iframe {
 }
 
 #expert,
-#keynote ,#panel,#mous,#exhibts{
-    height: 50px;
+#keynote,
+#panel,
+#mous,
+#exhibts,
+#commitee {
+    height: 65px;
 }
