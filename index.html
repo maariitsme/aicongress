@@ -33,7 +33,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#overview">About <span class="sr-only">(current)</span></a
               >
             </li>
@@ -68,6 +68,9 @@
             <img src="./images/logo.png" class="collegeName" alt="">
         </div>
         <div class="blue">
+            <div class="reverseimg">
+                <img src="./images/home-image.png" alt="">
+            </div>
             <div class="image">
                 <img src="./images/home-image.png" alt="">
             </div>
@@ -130,10 +133,17 @@
             <div class="speakers expert">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
                     <div class="speaker-img">
-                        <img src="./images/speakers/saty.jpeg" alt="Luis Serrano" />
+                        <img src="./images/speakers/saty.jpeg" alt="Saty Raghavachary" />
                     </div>
                     <div class="speaker-name">Dr. Saty Raghavachary</div>
                     <div class="speaker-designation">University of Southern California</div>
+                </div>
+                <div class="speaker" data-tilt data-tilt-scale="1.1">
+                    <div class="speaker-img">
+                        <img src="./images/speakers/nagabhushan.jpeg" alt="Nagbhushan" />
+                    </div>
+                    <div class="speaker-name">Dr. P. Nagabhushan</div>
+                    <div class="speaker-designation">Director, IIIT-Allahabad</div>
                 </div>
             </div>
             <div id="expert"></div>
@@ -314,9 +324,9 @@
             </div>
         </div>
         <div class="howToAttend-container">
-            <h3 class="text-underline">HOW TO ATTEND</h3>
-            <div class="howToAttend ">
-                <div class="attend   ">
+            <h3 class="text-underline">How to Attend</h3>
+            <div class="howToAttend">
+                <div class="attend">
                     <img src="./images/register-undraw.svg" alt="">
                     <h5>1. Register</h5>
                     <p>Register with your email and phone number</p>
@@ -324,7 +334,7 @@
                 <div class="attend ">
                     <img src="./images/login.svg" alt="">
                     <h5>2. Join</h5>
-                    <p>Click on join and enter your email previously registered</p>
+                    <p>Click on join <br> Enter your registered mail</p>
                 </div>
                 <div class="attend ">
                     <img src="./images/attend.svg" alt="">
@@ -337,179 +347,195 @@
         <div class="commitee-container" style="background-color: rgba(78, 205, 236, 0.4);">
             <h2 class="text-underline">Committee Members</h2>
             <div class="patron committee">
-                <table class="table">
-                    <thead>
-                        <tr class="bg-primary">
-                            <th>Chief Patron</th>
-                            <th>Patron</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Raghava V Cherabuddi, Chairman, CVRCE</td>
-                            <td>K. Rama Sastri, Director, CVRCE</td>
-                        </tr>
-                        <tr>
-                            <td>C. Madhusudana Reddy, Advisor, CVRCE</td>
-                            <td>Nayanathara K Sattiraju, Principal, CVRCE</td>
-                        </tr>
+                <table>
+                    <tr class="bg-primary accordion" id="0">
+                        <th>Chief Patron</th>
+                        <th>Patron</th>
+                    </tr>
                 </table>
+                <div class="drop-down">
+                    <table class="table">
+                        <thead>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Raghava V Cherabuddi, Chairman, CVRCE</td>
+                                <td>K. Rama Sastri, Director, CVRCE</td>
+                            </tr>
+                            <tr>
+                                <td>C. Madhusudana Reddy, Advisor, CVRCE</td>
+                                <td>Nayanathara K Sattiraju, Principal, CVRCE</td>
+                            </tr>
+                    </table>
+                </div>
             </div>
+
             <div class="steering committee">
-                <table class="table table-striped">
-                    <thead>
-                        <tr class="bg-success">
-                            <th colspan="6">Steering Committee</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <tr>
-                            <td>K. Lal Kishore, Dean, Research, CVRCE</td>
-                            <td>Rameshwara Rao, Dean, Projects, CVRCE</td>
-                            <td>A. Venugopal Reddy, former VC, JNTUH</td>
-                            <td>Katta Narasimha Reddy, VC, JNTUH</td>
-                        </tr>
-                        <tr>
-                            <td>S Ramachandram, former VC, OU</td>
-                            <td>K V Chalapati Rao, Professor Emeritus, CVRCE</td>
-                            <td>N V Rao, Dean, Academics, CVRCE</td>
-                            <td>M.V. Seshagiri Rao</td>
-
-                        </tr>
-                        <tr>
-                            <td>G. Bhikshamaiah</td>
-                            <td>P. Veeresham</td>
-                            <td>E. Narsimha Charyulu</td>
-                            <td>Arun K Pujari, former VC, CUR</td>
-                        </tr>
-                        <tr>
-                            <td>Arun Agarwal, VC, UoH</td>
-                            <td>Hrushikesha Mohanty, VC, KIIT</td>
-                            <td>A Govardhan, Rector, JNTUH</td>
-                            <td>P Nagbhushan, Director, IIIT-A</td>
-
-                        </tr>
-                        <tr>
-                            <td>Raj Kumar Buyya, University of Melbourne</td>
-                            <td>Kavitha Bala, Cornell University</td>
-                            <td>Sumohana Channappayya, IIT-H</td>
-                            <td>Ch Sastry, IIT-H</td>
-
-                        </tr>
-                        <tr>
-                            <td>MN Murthy, IISc</td>
-                            <td>C Raghavendra Rao, UoH</td>
-                            <td>Pawan Lingras, SMU, Canada</td>
-                            <td>D S Guru, Mysore University</td>
-
-                        </tr>
-                        <tr>
-                            <td>Atul Negi, UoH</td>
-                            <td>R Srikanth, Stanford University</td>
-                            <td>G Vijaya Kumari, JNTUH</td>
-                            <td>A Kavitha, JNTUH</td>
-                        </tr>
-                    </tbody>
+                <table>
+                    <tr class="bg-success accordion" id="1">
+                        <th colspan="6">Steering Committee</th>
+                    </tr>
                 </table>
+                <div class="drop-down">
+                    <table class="table table-striped">
+                        <thead>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>K. Lal Kishore, Dean, Research, CVRCE</td>
+                                <td>Rameshwara Rao, Dean, Projects, CVRCE</td>
+                                <td>A. Venugopal Reddy, former VC, JNTUH</td>
+                                <td>Katta Narasimha Reddy, VC, JNTUH</td>
+                            </tr>
+                            <tr>
+                                <td>S Ramachandram, former VC, OU</td>
+                                <td>K V Chalapati Rao, Professor Emeritus, CVRCE</td>
+                                <td>N V Rao, Dean, Academics, CVRCE</td>
+                                <td>M.V. Seshagiri Rao</td>
+
+                            </tr>
+                            <tr>
+                                <td>G. Bhikshamaiah</td>
+                                <td>P. Veeresham</td>
+                                <td>E. Narsimha Charyulu</td>
+                                <td>Arun K Pujari, former VC, CUR</td>
+                            </tr>
+                            <tr>
+                                <td>Arun Agarwal, VC, UoH</td>
+                                <td>Hrushikesha Mohanty, VC, KIIT</td>
+                                <td>A Govardhan, Rector, JNTUH</td>
+                                <td>P Nagbhushan, Director, IIIT-A</td>
+
+                            </tr>
+                            <tr>
+                                <td>Raj Kumar Buyya, University of Melbourne</td>
+                                <td>Kavitha Bala, Cornell University</td>
+                                <td>Sumohana Channappayya, IIT-H</td>
+                                <td>Ch Sastry, IIT-H</td>
+
+                            </tr>
+                            <tr>
+                                <td>MN Murthy, IISc</td>
+                                <td>C Raghavendra Rao, UoH</td>
+                                <td>Pawan Lingras, SMU, Canada</td>
+                                <td>D S Guru, Mysore University</td>
+
+                            </tr>
+                            <tr>
+                                <td>Atul Negi, UoH</td>
+                                <td>R Srikanth, Stanford University</td>
+                                <td>G Vijaya Kumari, JNTUH</td>
+                                <td>A Kavitha, JNTUH</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="conveners-general-program-publicity committee">
-                <table class="table table-striped">
-                    <thead>
-                        <tr style="background-color:darkviolet;">
-                            <th>Conveners</th>
-                            <th>General Chairs</th>
-                            <th>Program Co-Chairs</th>
-                            <th colspan="2">Publicity Committee</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>L C Siva Reddy, CVRCE</td>
-                            <td>A Vani Vathsala, HoD, CSE</td>
-                            <td>N Subhash Chandra, CVRCE</td>
-                            <td>D Durga Bhavani, CVRCE</td>
-                            <td>K Venkatesh Sharma, CVRCE</td>
-                        </tr>
-                        <tr>
-                            <td>K Venkateswara Rao, CVRCE</td>
-                            <td>Raghava M, CVRCE</td>
-                            <td>RK Selva Kumar, CVRCE</td>
-                            <td>R Usha Rani, CVRCE</td>
-                            <td>Suhail Afroz, CVRCE</td>
-                        </tr>
-                    </tbody>
+                <table>
+                    <tr style="background-color:darkviolet;" id="2" class="accordion">
+                        <th>Conveners</th>
+                        <th>General Chairs</th>
+                        <th>Program Co-Chairs</th>
+                        <th colspan="2">Publicity Committee</th>
+                    </tr>
                 </table>
+                <div class="drop-down">
+                    <table class="table table-striped">
+                        <thead>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>L C Siva Reddy, CVRCE</td>
+                                <td>A Vani Vathsala, HoD, CSE</td>
+                                <td>N Subhash Chandra, CVRCE</td>
+                                <td>D Durga Bhavani, CVRCE</td>
+                                <td>K Venkatesh Sharma, CVRCE</td>
+                            </tr>
+                            <tr>
+                                <td>K Venkateswara Rao, CVRCE</td>
+                                <td>Raghava M, CVRCE</td>
+                                <td>RK Selva Kumar, CVRCE</td>
+                                <td>R Usha Rani, CVRCE</td>
+                                <td>Suhail Afroz, CVRCE</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="program-committee committee">
-                <table class="table table-striped">
-                    <thead>
-                        <tr class="bg-dark">
-                            <th colspan="5">Advisory Committee</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>R Sita Ramaiah, CVRCE</td>
-                            <td>Bipin S Bihari, CVRCE</td>
-                            <td>H N Lakshmi, CVRCE</td>
-                            <td>B.N. Malleswara Rao</td>
-                            <td>K. Narendar Reddy</td>
-                        </tr>
-                        <tr>
-                            <td>M. Venkata Ramana</td>
-                            <td>S. Venkateshwarlu</td>
-                            <td>N. Murali Krishna</td>
-                            <td>K. Lalithendra</td>
-                            <td>S. Harivardhagini</td>
-
-                        </tr>
-                        <tr>
-                            <td>B Vikranth, CVRCE</td>
-                            <td>K Madhusudana, CVRCE</td>
-                            <td>RVB Subramanyam, NITW</td>
-                            <td>SK Udgata, UoH</td>
-                            <td>Kannan Srinathan, IIITH</td>
-                        </tr>
-                        <tr>
-                            <td>Venky Kannan, TIFRB</td>
-                            <td>Alok Singh, UoH</td>
-                            <td>Vineet Padmanabhan Nair, UoH</td>
-                            <td>G Laxminarayana, Chairman, IETE</td>
-                            <td>S Viswanath Raju, JNTUH</td>
-
-                        </tr>
-                        <tr>
-                            <td>PV Sudha, OU</td>
-                            <td>M Chandra Mohan, JNTUH</td>
-                            <td>B V Ramanaiah, JNTUH</td>
-                            <td>M Nagaratna, JNTUH</td>
-                            <!-- <td>A Kavitha, JNTUH</td> -->
-                            <td>V Aruna, SNIST</td>
-
-                        </tr>
-                        <tr>
-                            <td>G Madhavi, JNTUK</td>
-                            <td>K. Raghavendra, ADRIN</td>
-                            <td>E Sunitha, JNTUK</td>
-                            <td>Nilanjan Dey</td>
-                            <td>N Naveen, UoH</td>
-
-                        </tr>
-                        <tr>
-                            <td>Ambuja Salgaonkar, Mumbai University</td>
-                            <td>M Phani Krishna Kishore, GVPCE</td>
-                            <td>P S V S Sai Prasad, UoH</td>
-                            <td>K Hima Bindu, NIT-T</td>
-                            <td>T Goswami, ANURAG</td>
-
-                        </tr>
-<!-- 
-                        <tr>
-                           
-                        </tr> -->
-                    </tbody>
+                <table>
+                    <tr class="bg-dark accordion" id="3">
+                        <th colspan="5">Advisory Committee</th>
+                    </tr>
                 </table>
+                <div class="drop-down">
+                    <table class="table table-striped">
+                        <thead>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>R Sita Ramaiah, CVRCE</td>
+                                <td>Bipin S Bihari, CVRCE</td>
+                                <td>H N Lakshmi, CVRCE</td>
+                                <td>B.N. Malleswara Rao</td>
+                                <td>K. Narendar Reddy</td>
+                            </tr>
+                            <tr>
+                                <td>M. Venkata Ramana</td>
+                                <td>S. Venkateshwarlu</td>
+                                <td>N. Murali Krishna</td>
+                                <td>K. Lalithendra</td>
+                                <td>S. Harivardhagini</td>
+
+                            </tr>
+                            <tr>
+                                <td>B Vikranth, CVRCE</td>
+                                <td>K Madhusudana, CVRCE</td>
+                                <td>RVB Subramanyam, NITW</td>
+                                <td>SK Udgata, UoH</td>
+                                <td>Kannan Srinathan, IIITH</td>
+                            </tr>
+                            <tr>
+                                <td>Venky Kannan, TIFRB</td>
+                                <td>Alok Singh, UoH</td>
+                                <td>Vineet Padmanabhan Nair, UoH</td>
+                                <td>G Laxminarayana, Chairman, IETE</td>
+                                <td>S Viswanath Raju, JNTUH</td>
+
+                            </tr>
+                            <tr>
+                                <td>PV Sudha, OU</td>
+                                <td>M Chandra Mohan, JNTUH</td>
+                                <td>B V Ramanaiah, JNTUH</td>
+                                <td>M Nagaratna, JNTUH</td>
+                                <!-- <td>A Kavitha, JNTUH</td> -->
+                                <td>V Aruna, SNIST</td>
+
+                            </tr>
+                            <tr>
+                                <td>G Madhavi, JNTUK</td>
+                                <td>K. Raghavendra, ADRIN</td>
+                                <td>E Sunitha, JNTUK</td>
+                                <td>Nilanjan Dey</td>
+                                <td>N Naveen, UoH</td>
+
+                            </tr>
+                            <tr>
+                                <td>Ambuja Salgaonkar, Mumbai University</td>
+                                <td>M Phani Krishna Kishore, GVPCE</td>
+                                <td>P S V S Sai Prasad, UoH</td>
+                                <td>K Hima Bindu, NIT-T</td>
+                                <td>T Goswami, ANURAG</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
         </div>

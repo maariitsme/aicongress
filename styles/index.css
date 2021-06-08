@@ -30,6 +30,7 @@ header {
     color: aliceblue;
     margin-top: 30px;
     width: 100%;
+    overflow: hidden;
 }
 
 nav {
@@ -78,7 +79,7 @@ nav a:hover {
     min-height: 70vh;
     width: 100%;
     font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    color:blue;
+    color: blue;
     box-sizing: border-box;
 }
 
@@ -341,7 +342,7 @@ footer {
 }
 
 .howToAttend {
-    min-height: 500px;
+    /* min-height: 500px; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -350,8 +351,8 @@ footer {
 }
 
 .attend {
-    height: 300px;
-    width: 400px;
+    height: 220px;
+    width: 300px;
     margin-top: 10px;
     background-color: rgba(0, 60, 255, 0.8);
     display: flex;
@@ -359,6 +360,7 @@ footer {
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 5px;
 }
 
 .attend>img {
@@ -374,25 +376,11 @@ main {
     text-align: center;
 }
 
-.image>img {
-    position: absolute;
-    width: inherit;
-    height: 150vh;
-    top: 0;
-    right: 0;
-}
-
 .department,
 .bg-color,
 .bg-color2,
 .bg-color3 {
     z-index: 100;
-}
-
-@media only screen and (max-width: 1000px) {
-    .image>img {
-        display: none;
-    }
 }
 
 th,
@@ -440,4 +428,74 @@ iframe {
 #exhibts,
 #commitee {
     height: 65px;
+}
+
+.image>img {
+    position: absolute;
+    width: inherit;
+    height: 50vh;
+    top: 20;
+    right: 0;
+}
+
+.reverseimg>img {
+    transform: scaleX(-1);
+    position: absolute;
+    width: inherit;
+    height: 50vh;
+    top: 20;
+    left: 0;
+}
+
+@media only screen and (max-width: 1025px) {
+    .image {
+        display: none;
+    }
+    .reverseimg {
+        display: none;
+    }
+}
+
+.accordion:after {
+    content: '+';
+    font-size: 25px;
+    color: white;
+    float: right;
+    margin-right: 10px;
+    top: 10px;
+    position: relative;
+}
+
+.active:after {
+    content: "-";
+    font-size: 40px;
+    top: auto;
+    margin-right: 10px;
+}
+
+.accordion {
+    color: white;
+    cursor: pointer;
+    /* padding: 18px; */
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    height: 60px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: white;
+}
+
+.drop-down {
+    display: none;
+    overflow: auto;
+    transition: 2s ease;
+}
+
+table {
+    width: 100%
 }
