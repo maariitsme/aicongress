@@ -48,7 +48,7 @@
                         <a class="nav-link" href="#panel">Panel Discussions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#mous">MoU's</a>
+                        <a class="nav-link" href="#mous">MoUs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#exhibts">Product Exhibits</a>
@@ -77,12 +77,12 @@
             <div class="color2">
                 <span style="font-style:italic">PRESENTS</span>
                 <span class="bg-color2">AI FOR EXCELLENCE</span>
-                <span class="bg-color3">DURING 25th, 26th JUNE 2021</span>
+                <span class="bg-color3">DURING 25 - 26th JUNE 2021</span>
                 <small>Hosted By</small>
                 <span class="department">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</span>
             </div>
             <div class="buttons">
-                <button id="register" class="btn btn-lg" onclick="register()">Register</button>
+                <button id="register" class="btn btn-lg" onclick="register()">REGISTER</button>
                 <!-- <button id="join" class="btn btn-lg disable">Join</button> -->
             </div>
         </div>
@@ -125,7 +125,8 @@
         </div>
         <div class="speaker-container">
             <h1 class="text-underline">Speakers</h1>
-            <h3 id="keynote">KeyNote </h3>
+            <div id="keynote"></div>
+            <h3>KeyNote </h3>
             <div class="speakers expert">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
                     <div class="speaker-img">
@@ -135,6 +136,7 @@
                     <div class="speaker-designation">University of Southern California</div>
                 </div>
             </div>
+            <div id="expert"></div>
             <h3 id="expert">Expert Lectures</h3>
             <div class="speakers expert">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
@@ -199,7 +201,8 @@
                     <div class="speaker-designation">Murray State University</div>
                 </div>
             </div>
-            <h3 id="panel">Panel Discussions</h3>
+            <div id="panel"></div>
+            <h3>Panel Discussions</h3>
             <div class="speakers panel">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
                     <div class="speaker-img">
@@ -231,7 +234,8 @@
                 </div>
 
             </div>
-            <h3 id="mous">MoUs</h3>
+            <div id="mous"></div>
+            <h3>MoUs</h3>
             <div class="speakers mous">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
                     <div class="speaker-img">
@@ -250,7 +254,8 @@
                     </div>
                 </div>
             </div>
-            <h3 id="exhibts">Exhibits</h3>
+            <div id="exhibts"></div>
+            <h3>Exhibits</h3>
             <div class="speakers exhibts">
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
                     <div class="speaker-img">
@@ -276,7 +281,7 @@
                     </div>
                     <div class="speaker-name">Rohit Ageer</div>
                     <div class="speaker-designation">
-                        BOSCH Transmission Technology, Netherlands
+                        Lead System Architect IoT and Industry 4.0, BOSCH Transmission Technology, Netherlands
                     </div>
                 </div>
                 <div class="speaker" data-tilt data-tilt-scale="1.1">
@@ -320,7 +325,7 @@
             </div>
         </div>
         <div id="commitee" class="commitee-container" style="background-color: rgba(78, 205, 236, 0.4);">
-            <h2 class="text-underline">Commitee Members</h2>
+            <h2 class="text-underline">Committee Members</h2>
             <div class="patron committee">
                 <table class="table">
                     <thead>
@@ -348,6 +353,7 @@
                         </tr>
                     </thead>
                     <tbody>
+
                         <tr>
                             <td>K. Lal Kishore, Dean, Research, CVRCE</td>
                             <td>Rameshwara Rao, Dean, Projects, CVRCE</td>
@@ -358,6 +364,13 @@
                             <td>S Ramachandram, former VC, OU</td>
                             <td>K V Chalapati Rao, Professor Emeritus, CVRCE</td>
                             <td>N V Rao, Dean, Academics, CVRCE</td>
+                            <td>M.V. Seshagiri Rao</td>
+
+                        </tr>
+                        <tr>
+                            <td>G. Bhikshamaiah</td>
+                            <td>P. Veeresham</td>
+                            <td>E. Narsimha Charyulu</td>
                             <td>Arun K Pujari, former VC, CUR</td>
                         </tr>
                         <tr>
@@ -422,7 +435,7 @@
                 <table class="table table-striped">
                     <thead>
                         <tr class="bg-dark">
-                            <th colspan="5">Program Committee</th>
+                            <th colspan="5">Advisory Committee</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -430,44 +443,58 @@
                             <td>R Sita Ramaiah, CVRCE</td>
                             <td>Bipin S Bihari, CVRCE</td>
                             <td>H N Lakshmi, CVRCE</td>
-                            <td>B Vikranth, CVRCE</td>
-                            <td>K Madhusudana, CVRCE</td>
+                            <td>B.N. Malleswara Rao</td>
+                            <td>K. Narendar Reddy</td>
                         </tr>
                         <tr>
+                            <td>M. Venkata Ramana</td>
+                            <td>S. Venkateshwarlu</td>
+                            <td>N. Murali Krishna</td>
+                            <td>K. Lalithendra</td>
+                            <td>S. Harivardhagini</td>
+
+                        </tr>
+                        <tr>
+                            <td>B Vikranth, CVRCE</td>
+                            <td>K Madhusudana, CVRCE</td>
                             <td>RVB Subramanyam, NITW</td>
                             <td>SK Udgata, UoH</td>
                             <td>Kannan Srinathan, IIITH</td>
-                            <td>Venky Kannan, TIFRB</td>
-                            <td>Alok Singh, UoH</td>
                         </tr>
                         <tr>
+                            <td>Venky Kannan, TIFRB</td>
+                            <td>Alok Singh, UoH</td>
                             <td>Vineet Padmanabhan Nair, UoH</td>
                             <td>G Laxminarayana, Chairman, IETE</td>
                             <td>S Viswanath Raju, JNTUH</td>
-                            <td>PV Sudha, OU</td>
-                            <td>M Chandra Mohan, JNTUH</td>
 
                         </tr>
                         <tr>
+                            <td>PV Sudha, OU</td>
+                            <td>M Chandra Mohan, JNTUH</td>
                             <td>B V Ramanaiah, JNTUH</td>
                             <td>M Nagaratna, JNTUH</td>
                             <td>A Kavitha, JNTUH</td>
-                            <td>G Madhavi, JNTUK</td>
-                            <td>K. Raghavendra, ADRIN</td>
 
                         </tr>
                         <tr>
+                            <td>G Madhavi, JNTUK</td>
+                            <td>K. Raghavendra, ADRIN</td>
                             <td>E Sunitha, JNTUK</td>
                             <td>Nilanjan Dey, TICIT</td>
                             <td>N Naveen, UoH</td>
-                            <td>Ambuja Salgaonkar, Mumbai University</td>
-                            <td>M Phani Krishna Kishore, GVPCE</td>
 
                         </tr>
                         <tr>
+                            <td>Ambuja Salgaonkar, Mumbai University</td>
+                            <td>M Phani Krishna Kishore, GVPCE</td>
                             <td>P S V S Sai Prasad, UoH</td>
                             <td>K Hima Bindu, NIT-T</td>
                             <td>T Goswami, ANURAG</td>
+
+                        </tr>
+
+                        <tr>
                             <td>V Aruna, SNIST</td>
                         </tr>
                     </tbody>
@@ -477,7 +504,7 @@
         </div>
 
         <div class="map" id="contact">
-            <h3 class="text-underline">Contact</h3>
+
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3811.4609592492475!2d78.5950622!3d17.1964133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1622402577072!5m2!1sen!2sin "
                 width="1550 " height="200" style="border: 0 " allowfullscreen=" " loading="lazy "></iframe>
         </div>
@@ -500,8 +527,8 @@
             </div>
             <div>
                 <span style="text-align: center; "><b>WEB Designers: </b> <br>
-                    1. A. Srisairam  <i class="fab fa-linkedin "></i><a href="https://www.linkedin.com/in/srisairamakam/ " target="_blank "> SRISAIRAM AKAM</a> <br>
-                    2. B. Pranay Kumar <i class="fab fa-linkedin "></i><a href="https://www.linkedin.com/in/pranay-kumar-a63b5112b/ " target="_blank "> Pranay Kumar</a></span>
+                    <i class="fab fa-linkedin "></i><a href="https://www.linkedin.com/in/srisairamakam/ " target="_blank "> Srisairam Akam</a> <br>
+                     <i class="fab fa-linkedin "></i><a href="https://www.linkedin.com/in/pranay-kumar-a63b5112b/ " target="_blank "> Pranay Kumar</a></span>
             </div>
         </div>
 
@@ -516,7 +543,5 @@
     <script defer src="./scripts/vanilla-tilt.min.js "></script>
     <script defer src="./scripts/mobile.js "></script>
 </body>
-
-</html>
 
 </html>
