@@ -31,7 +31,7 @@ function add(js) {
 }
 
 function redirect() {
-    window.location = "/public/index.html";
+    window.location = "/index.html";
 }
 
 function getData() {

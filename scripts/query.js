@@ -5,5 +5,5 @@ $(document).ready(function() {
 });
 
 function register() {
-    window.location = "/public/register.html";
+    window.location = "/register.html";
 }
