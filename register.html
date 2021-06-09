@@ -22,7 +22,9 @@
 
 <body>
     <nav class="navbar  fixed-top">
-        <span class="navbar-brand mx-auto" onclick="redirect()">CVR COLLEGE OF ENGINEERING</span>
+        <span class="navbar-brand mx-auto" onclick="redirect()"> <div class="collegeLogo">
+            <img src="./images/logo.png" class="collegeName" alt="">
+        </div></span>
         <span class="hosted" style="float: left;" class="mx-auto"> Department of Computer Science and Engineering </span>
     </nav>
 
@@ -49,16 +51,17 @@
               </small>
                 </div>
                 <div class="input-group input-group-icon">
-                    <input type="text" id="designation" placeholder="Designation" class="input " required>
-                    <div class="input-icon"><i class="fa fa-address-card"></i></div>
-                </div>
-                <div class="input-group input-group-icon">
                     <input type="number" id="phone" class="input " placeholder="Phone Number" required>
                     <div class="tel ">
 
                         <input type="number " id="tel " value="+91" required>
                     </div>
                 </div>
+                <div class="input-group input-group-icon">
+                    <input type="text" id="designation" placeholder="Designation" class="input " required>
+                    <div class="input-icon"><i class="fa fa-address-card"></i></div>
+                </div>
+
                 <div class="input-group input-group-icon ">
                     <input type="text " id="organization" placeholder="Institution / Organization " class="input " required>
                     <div class="input-icon "><i class="fa fa-building "></i></div>
@@ -68,7 +71,7 @@
                     <div class="input-icon "><i class="fa fa-map-marker-alt "></i></div>
                 </div>
                 <div class="input-group input-group-icon ">
-                    <input type="text " id="area" class="input " placeholder="Area of Interest " required>
+                    <input type="text " id="area" class="input " placeholder="Research Area of Interest " required>
                     <div class="input-icon "><i class="fa fa-list-alt "></i></div>
                 </div>
 

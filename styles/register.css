@@ -232,7 +232,8 @@
     }
     
     .hosted {
-        font-size: 16px;
+        font-size: 20px;
+        letter-spacing: 2px;
     }
     
     input:focus {
@@ -260,4 +261,11 @@
     
     .navbar-brand {
         cursor: pointer;
+    }
+    
+    .collegeName {
+        width: 100%;
+        min-width: 300px;
+        display: block;
+        /* margin: 8vh auto; */
     }

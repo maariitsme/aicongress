@@ -25,7 +25,7 @@ a:hover {
 
 header {
     min-height: 100vh;
-    background: linear-gradient(#0c0bd1, #0b0b83);
+    background: linear-gradient(#0c0bd0 20%, #0b0b83);
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
@@ -40,14 +40,12 @@ nav {
 
 nav a {
     color: aliceblue;
-    font-family: 'Garamond' ;
+    font-family: 'Garamond';
     letter-spacing: 2px;
 }
 
-nav a:hover {
-    background-color: gold;
-    color: black;
-    border-radius: 10px;
+.nav-item {
+    padding: 10px;
 }
 
 .white-text {
@@ -61,6 +59,9 @@ nav a:hover {
 
 .brand {
     height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -218,13 +219,15 @@ nav a:hover {
 }
 
 .speaker-name {
-    font-family:'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1.375rem;
 }
-.speaker-name>span{
+
+.speaker-name>span {
     text-transform: uppercase;
 }
+
 .text-underline {
     text-decoration: underline;
     font-family: 'Garamond';
@@ -318,6 +321,10 @@ footer {
     font-size: 3rem;
     padding: 2px 20px 2px 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
 }
 
 .bg-color3 {
@@ -337,7 +344,7 @@ footer {
 }
 
 .blue span {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .department {
@@ -388,6 +395,7 @@ footer {
 
 main {
     background-color: #dce0fb6e;
+    background-color: #b3d7ff9e;
 }
 
 .commitee-container>h2 {
@@ -444,8 +452,9 @@ iframe {
 #panel,
 #mous,
 #exhibts,
-#commitee {
-    height: 65px;
+#commitee,
+#aihack {
+    height: 90px;
 }
 
 .image>img {
@@ -463,15 +472,6 @@ iframe {
     height: 50vh;
     top: 20;
     left: 0;
-}
-
-@media only screen and (max-width: 1025px) {
-    .image {
-        display: none;
-    }
-    .reverseimg {
-        display: none;
-    }
 }
 
 .accordion:after {
@@ -516,4 +516,120 @@ iframe {
 
 table {
     width: 100%
+}
+
+.aihack>h3 {
+    text-align: center;
+}
+
+.imageBrand {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    right: 18.5%;
+}
+
+.imageBrand>img {
+    width: 80px;
+    /* margin-left: 200px; */
+    margin: 0 auto;
+}
+
+.imageBrand>p {
+    /* margin-left: 70px; */
+    text-align: right;
+}
+
+.total {
+    width: 98%;
+    margin: auto;
+}
+
+.aihack {
+    margin-bottom: 50px;
+}
+
+.aihack>div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.aihack li {
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    list-style-type: none;
+}
+
+.aihack i {
+    margin-right: 10px;
+}
+
+ul li {
+    text-indent: -1em;
+}
+
+@media only screen and (max-width: 1025px) {
+    .image {
+        display: none;
+    }
+    .reverseimg {
+        display: none;
+    }
+    .imageBrand {
+        display: none;
+    }
+}
+
+.nodisc {
+    list-style-type: none;
+}
+
+.head::after {
+    content: '';
+}
+
+.aihack {
+    font-family: 'Raleway';
+}
+
+.aihack-image {
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+.aihack-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aihack-image-container>li {
+    position: absolute;
+    margin-top: 220px;
+    text-align: center;
+    color: #0000ff;
+}
+
+.mous-text {
+    width: 60%;
+    margin: 40px auto;
+    list-style-type: none;
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+.fa-hand-point-right {
+    margin-right: 10px;
+}
+
+.hideInLarge {
+    display: none;
 }

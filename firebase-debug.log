@@ -1,0 +1,14 @@
+[debug] [2021-06-09T13:26:06.423Z] ----------------------------------------------------------------------
+[debug] [2021-06-09T13:26:06.429Z] Command:       D:\nodejs\node.exe C:\Users\akam srisairam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-06-09T13:26:06.431Z] CLI Version:   9.12.0
+[debug] [2021-06-09T13:26:06.431Z] Platform:      win32
+[debug] [2021-06-09T13:26:06.431Z] Node Version:  v14.16.0
+[debug] [2021-06-09T13:26:06.434Z] Time:          Wed Jun 09 2021 18:56:06 GMT+0530 (India Standard Time)
+[debug] [2021-06-09T13:26:06.434Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-09T13:26:06.453Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-09T13:26:06.454Z] > authorizing via signed-in user (maariitsme@gmail.com)
+[debug] [2021-06-09T13:26:06.454Z] [iam] checking project iaicaie for permissions ["firebase.projects.get"]
+[debug] [2021-06-09T13:26:06.460Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-06-09T13:26:06.461Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>

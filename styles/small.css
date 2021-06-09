@@ -48,3 +48,44 @@
 .committee {
     overflow: auto;
 }
+
+.aihack>div {
+    width: 85%;
+}
+
+.aihack-image {
+    display: none;
+}
+
+.hideInMobile {
+    display: none;
+}
+
+.aihack li {
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+    list-style-type: none;
+}
+
+ul li {
+    text-indent: 0.2em;
+}
+
+.hideInLarge {
+    display: block;
+}
+
+.hideInLarge>li {
+    position: static;
+    text-align: center;
+}
+
+.mous-text {
+    width: 90%;
+    margin: 40px auto;
+    list-style-type: none;
+    font-family: 'Raleway';
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+}
