@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
 @font-face {
     font-family: "ZapfHumnst BT";
     src: url("../fonts/ZapfHumanist601BT-Roman.eot");
@@ -39,10 +40,14 @@ nav {
 
 nav a {
     color: aliceblue;
+    font-family: 'Garamond' ;
+    letter-spacing: 2px;
 }
 
 nav a:hover {
-    color: aqua;
+    background-color: gold;
+    color: black;
+    border-radius: 10px;
 }
 
 .white-text {
@@ -79,19 +84,24 @@ nav a:hover {
     min-height: 70vh;
     width: 100%;
     font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    color: blue;
+    color: black;
     box-sizing: border-box;
+    font-family: 'Garamond';
 }
 
 .overview>h3 {
     text-align: center;
     margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
     font-size: calc(inherit+5px);
 }
 
 .overview>div>p {
-    width: 90%;
+    width: 80%;
     margin: 0 auto 10px auto;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.6px;
 }
 
 .buttons {
@@ -179,12 +189,13 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 250px;
-    height: 350px;
+    width: 270px;
+    min-height: 350px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 30px auto;
     border-radius: 10px;
     box-shadow: 0 0 15px 3px rgba(43, 43, 43, 0.4);
+    border-radius: 15%;
 }
 
 .speaker-designation,
@@ -207,13 +218,18 @@ nav a:hover {
 }
 
 .speaker-name {
-    font-family: "Staatliches";
+    font-family:'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1.375rem;
 }
-
+.speaker-name>span{
+    text-transform: uppercase;
+}
 .text-underline {
     text-decoration: underline;
+    font-family: 'Garamond';
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .top {
@@ -345,7 +361,7 @@ footer {
     /* min-height: 500px; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -361,6 +377,8 @@ footer {
     justify-content: center;
     color: white;
     padding: 5px;
+    border-radius: 30%;
+    margin-right: 20px;
 }
 
 .attend>img {
@@ -369,7 +387,7 @@ footer {
 }
 
 main {
-    background-color: rgba(240, 240, 240, 0.2);
+    background-color: #dce0fb6e;
 }
 
 .commitee-container>h2 {
