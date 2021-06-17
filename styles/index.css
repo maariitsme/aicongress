@@ -293,6 +293,7 @@ footer {
     flex-direction: column;
     font-family: "ZapfHumnst BT";
     overflow: hidden;
+    margin-top: -50px;
 }
 
 .color2 {
@@ -660,4 +661,36 @@ ul li {
 .joinModalClose{
     position: absolute !important;
     right:20px;
+}
+
+.day1ScheduleTitle,.day2ScheduleTitle{
+    width: 130%;
+    margin: 0 auto;
+    text-align: center;
+}
+.day1Table td,.day1Table th,.day2Table td,.day2Table th{
+    border:1px solid black;
+    padding:5px;
+    color: black;
+}
+.scheduleButtons{
+    margin-top: 10px;
+    /* background-color: rebeccapurple; */
+    padding: 0.5rem;   
+    display: flex ;
+    border-radius: 10px;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    width: 350px;
+
+}
+.scheduleButtons>p{
+    margin-top: 10px;
+    font-family :"ZapfHumnst BT";
+    font-weight: 700;
+}
+.scheduleButtons>button{
+    background-color: rebeccapurple !important;
+    border:1px solid rgb(253, 253, 253);
 }

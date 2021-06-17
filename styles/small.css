@@ -9,7 +9,7 @@
 
 .buttons {
     width: 100%;
-    margin: 20px auto;
+    margin: 10px auto 20px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -28,6 +28,7 @@
 
 .bg-color2 {
     font-size: 2rem;
+    padding: 1px 18px 1px 18px;
 }
 
 .department {
@@ -88,4 +89,11 @@ ul li {
     font-family: 'Raleway';
     font-size: 1.1rem;
     line-height: 2.4rem;
+}
+
+#day1Schedule .container{
+    width: 100% !important;
+}
+.scheduleButtons{
+    margin-top: -10px;
 }

@@ -92,6 +92,15 @@
                 <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#joinModal">JOIN</button>
                 <!-- <button id="join" class="btn btn-lg disable">Join</button> -->
             </div>
+            <div class="scheduleButtons">
+                <p>Schedule</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#day1Schedule">
+                        25<sup>th</sup> June
+                      </button>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#day2Schedule">
+                        26<sup>th</sup> June
+                       </button>
+            </div>
         </div>
     </header>
     <main>
@@ -619,7 +628,7 @@
                             <tr>
                                 <td>K Hima Bindu, NIT-AP</td>
                                 <td>V Aruna, SNIST</td>
-                                <td>T Goswami, ANURAG</td>
+                                <td>T Goswami, ANURAG University</td>
                                 <td>D. Sudheer Reddy, ADRIN</td>
                                 <td>R. Ponnusamy, CIT</td>
                             </tr>
@@ -668,7 +677,7 @@
                     <h4 class="modal-title">Welcome to AIxellence</h4>
                 </div>
                 <div class="modal-body joinModalBody">
-                    <h4>Enter your verified email </h4>
+                    <h4 style="margin-bottom:25px">Enter your registered email</h4>
                         <i class="fa fa-envelope"></i>
                         <input type="email" id="email" class="inputInModal" required placeholder="Enter email"/><br><br>
                         <input type = "button" value = "Verify" class = "btn btn-primary" onclick="check()">
@@ -679,6 +688,184 @@
             </div>
         </div>
     </div>
+
+    
+      <!-- Modal -->
+      <div class="modal fade " id="day1Schedule" tabindex="-1" role="dialog" aria-labelledby="day1ScheduleTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title day1ScheduleTitle" id="day1ScheduleModalLongTitle">Day 1 - 25 June Schedule</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <table class="container day1Table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center;">Time</th>
+                            <th style="text-align:center;">Event</th>
+                            <th style="text-align:center;">Dignitaries</th>
+                        </tr>
+                    </thead>
+                  <tbody>
+                    <tr>
+                        <td>8.30 AM to 9.00 AM</td>
+                        <td>Inaugural Session</td>
+                        <td>Prof P Nagabhushan, Director, IIIT-A<br>
+                        Prof V Kamakshi Prasad, DoE, JNTUH<br>
+                        Prof Raghava V Cherabuddi, Chairman, CVRCE<br>
+                        Prof K Rama Sastri, Director, CVRCE<br>
+                        Prof Nayanathara K Sattiraju, Principal, CVRCE</td>
+                    </tr>
+                    <tr>
+                        <td>9.10 AM to 9.55 AM</td>
+                        <td>Keynote Address - I</td>
+                        <td>Prof Saty Raghavachary, USC, USA</td>
+                    </tr>
+                    <tr>
+                        <td>10.00 AM to 10.40 AM</td>
+                        <td>Expert Lecture - 1</td>
+                        <td>Dr Luis Serrano, Zapata Computing, Inc., USA</td>
+                    </tr>
+                    <tr>
+                        <td>10.45 AM to 11.30 AM</td>
+                        <td>Expert Lecture - 2</td>
+                        <td>Dr Saptarshi Sengupta, Murray State University, USA</td>
+                    </tr>
+                    <tr>
+                        <td>11.30 AM to 12.15 AM</td>
+                        <td>Expert Lecture - 3</td>
+                        <td>Prof Atul Negi, University of Hyderabad</td>
+                    </tr>
+                    <tr>
+                        <td>12.15 AM to 1.00 PM</td>
+                        <td>Expert Lecture - 4</td>
+                        <td>Shashikanth I, Research Assistant, MU, Australia</td>
+                    </tr>
+                    <tr>
+                        <td>1.00 PM to 2.00 PM</td>
+                        <td colspan="2" style="text-align:center;">Lunch Break</td>
+                    </tr>
+                    <tr>
+                        <td>2.00 PM to 3.00 PM</td>
+                        <td>Expert Lecture - 5</td>
+                        <td>Dr Raghavendra Selvan, University of Copenhagen, Denmark</td>
+                    </tr>
+                    <tr>
+                        <td>3.00 PM to 3.55 PM</td>
+                        <td>Exhibits - 1</td>
+                        <td>G Shiva, TomTom, Netherlands<br>
+                        Srimukh Sripada, TomTom, India</td>
+                    </tr>
+                    <tr>
+                        <td>4.00 PM to 4.30 PM</td>
+                        <td>MoU - 1<br>
+                        MDX University</td>
+                        <td>Prof David Windridge, MDX University, UK<br>
+                        Dr Santhosh Tirunagari, MDX University, UK</td>
+                    </tr>
+                    <tr>
+                        <td>4.45 PM to 5.00 PM</td>
+                        <td colspan="2" style="text-align:center;">Cultural Programs</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      
+      <!-- Modal -->
+      <div class="modal fade " id="day2Schedule" tabindex="-1" role="dialog" aria-labelledby="day2ScheduleTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title day2ScheduleTitle" id="day2ScheduleModalLongTitle">Day 2 - 26 June Schedule</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <table class="container day2Table">
+                    <thead>
+                       
+                        <tr>
+                            <th style="text-align:center;">Time</th>
+                            <th style="text-align:center;">Event</th>
+                            <th style="text-align:center;">Dignitaries</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>9.00 AM to 10.00 AM</td>
+                        <td>Keynote Address - II</td>
+                        <td>Prof Parag Kulkarni, TIU, Tokyo</td>
+                    </tr>
+                    <tr>
+                        <td>10.00 AM to 12.15 AM</td>
+                        <td>MoU - II<br>
+                        Fragma Data Systems<br>
+                        &<br>
+                        Panel Discussion</td>
+                        <td>B Varun, CEO, Fragma Data Systems<br>
+                        Dr Sriram Somanchi, University of Notre Dame<br>
+                        C Srikanth Varma, Co-Founder, Applied AI<br>
+                        Hari Krishna M, Kore.ai</td>
+                    </tr>
+                    <tr>
+                        <td>12.15 AM to 12.55 AM</td>
+                        <td>Expert Lecture - 6</td>
+                        <td>Dr Shriram Vasudevan<br>Huawei Developer Expert</td>
+                    </tr>
+                    <tr>
+                        <td>1.00 PM to 1.45 PM</td>
+                        <td colspan="2" style="text-align:center;">Lunch Break</td>
+                    </tr>
+                    <tr>
+                        <td>1.45 PM to 2.15 PM</td>
+                        <td>Keynote Address<br>
+                        Exhibits - 2</td>
+                        <td>Tushar Shrivastava<br>Huawei</td>
+                    </tr>
+                    <tr>
+                        <td>2.15 PM to 2.45 PM</td>
+                        <td>Exhibits - 3</td>
+                        <td>Siva Sadhu, AWS, Netherlands</td>
+                    </tr>
+                    <tr>
+                        <td>2.45 PM to 3.15 PM</td>
+                        <td>Exhibits - 4</td>
+                        <td>Rohith Kumar, BOSCH, Netherlands</td>
+                    </tr>
+                    <tr>
+                        <td>3.15 PM to 3.45 PM</td>
+                        <td>Exhibits - 5</td>
+                        <td>Ananth V, Makers Hive Innovation</td>
+                    </tr>
+                    <tr>
+                        <td>3.45 PM to 5.00 PM</td>
+                        <td>Expert Lecture - 7<br>
+                        Valedictory Note</td>
+                        <td>Prof Deva Priyakumar, IIIT-H<br>
+                        Prof S Bapi Raju, IIIT-H</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     <!-- & scripts -->
     <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
     <script defer src="bootstrap/js/bootstrap.js "></script>
