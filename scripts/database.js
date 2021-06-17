@@ -32,6 +32,7 @@ function add(js) {
 
 function redirect() {
     window.location = "/aicongress/index.html";
+    // window.location = "/";
 }
 
 function getData() {

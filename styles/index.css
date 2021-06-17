@@ -633,3 +633,31 @@ ul li {
 .hideInLarge {
     display: none;
 }
+.popup-table{
+    width:100%;
+}
+.popup-table td, .popup-table th{
+    border:1px solid black;
+    padding:5px;
+}
+.Modalhide{
+    display:none;
+}
+.inputInModal {
+    box-sizing: border-box;
+    background: inherit;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    outline: none;
+    font-size: inherit;
+    width:80%;
+}
+.joinModalBody{
+    margin: 0 auto;
+    line-height: 30px;
+}
+.joinModalClose{
+    position: absolute !important;
+    right:20px;
+}

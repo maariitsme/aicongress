@@ -6,6 +6,7 @@ $(document).ready(function() {
 
 function register() {
     window.location = "/aicongress/register.html";
+    // window.location = "/register";
 }
 
 var acc = document.getElementsByClassName("accordion");
