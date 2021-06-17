@@ -533,6 +533,22 @@ table {
     margin-left: 20px;
     right: 18.5%;
 }
+@media only screen and (max-width: 1300px) {
+    .imageBrand {
+        right: 10%;
+    }
+}
+@media only screen and (max-width: 1230px) {
+    .imageBrand {
+        right: 8%;
+    }
+}
+@media only screen and (max-width: 1124px) {
+    .imageBrand {
+        right: 6%;
+    }
+}
+
 
 .imageBrand>img {
     width: 80px;
