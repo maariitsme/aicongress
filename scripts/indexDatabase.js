@@ -23,7 +23,7 @@ function check(){
             var encrypted = CryptoJS.AES.encrypt("true", "cvrcse");
             localStorage.setItem("verified",encrypted);
             checked();
-            return;
+            return false;
         }
     });
     if(flag == 0){
@@ -46,6 +46,7 @@ function checked(){
         $('#joinModal').modal('hide');
     }
     else{
+        
         $('#joinModal').modal('show');
     }
 }
