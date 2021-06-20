@@ -28,6 +28,7 @@ function check(){
     });
     if(flag == 0){
         closeSpinner();
+        alert("no")
         window.location="/aicongress/register.html";
     }
     });
