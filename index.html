@@ -89,7 +89,7 @@
             </div>
             <div class="buttons">
                 <button id="register" class="btn btn-lg" onclick="register()">REGISTER</button>
-                <!-- <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#joinModal">JOIN</button> -->
+                <button type="button" class="btn btn-lg"  onclick="checked()">JOIN</button>
                 <!-- <button id="join" class="btn btn-lg disable">Join</button> -->
             </div>
             <div class="scheduleButtons">
@@ -371,9 +371,9 @@
                     <div class="speaker-img">
                         <img src="./images/speakers/Ananth Vishwanath.jpeg" alt="image" />
                     </div>
-                    <div class="speaker-name"><span>Ananth Vishwanath</span></div>
+                    <div class="speaker-name"><span>Ananth Rachakonda</span></div>
                     <div class="speaker-designation">
-                        Robotics Enthusiast <br> Makers Hive Innovations.
+                        Senior Software Engineer <br>  Bionics <br> Makers Hive Innovation.
                     </div>
                 </div>
                 
@@ -678,9 +678,11 @@
                 </div>
                 <div class="modal-body joinModalBody">
                     <h4 style="margin-bottom:25px">Enter your registered email</h4>
+                    <form onsubmit="javascript:check()">
                         <i class="fa fa-envelope"></i>
                         <input type="email" id="email" class="inputInModal" required placeholder="Enter email"/><br><br>
-                        <input type = "button" value = "Verify" class = "btn btn-primary" onclick="check()">
+                        <input type = "submit" value = "Verify" class = "btn btn-primary" >
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -846,7 +848,7 @@
                     <tr>
                         <td>3.15 PM to 3.45 PM</td>
                         <td>Exhibits - 5</td>
-                        <td>Ananth V, Makers Hive Innovation</td>
+                        <td>Ananth Rachakonda, Makers Hive Innovation</td>
                     </tr>
                     <tr>
                         <td>3.45 PM to 5.00 PM</td>
@@ -864,7 +866,11 @@
           </div>
         </div>
       </div>
-
+      <div id="popup" class="popup popupHide">
+          <div class="spinner">
+            <i class="fas fa-spinner fa-pulse"></i>
+          </div>
+      </div>
 
     <!-- & scripts -->
     <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
@@ -876,6 +882,7 @@
     <script defer src="./scripts/mobile.js "></script>
     <script src="./scripts/aos.js"></script>
     <script defer src="./scripts/indexDatabase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js" integrity="sha512-nOQuvD9nKirvxDdvQ9OMqe2dgapbPB7vYAMrzJihw5m+aNcf0dX53m6YxM4LgA9u8e9eg9QX+/+mPu8kCNpV2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         AOS.init({
             delay: 200

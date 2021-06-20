@@ -548,16 +548,12 @@ table {
         right: 6%;
     }
 }
-
-
 .imageBrand>img {
     width: 80px;
-    /* margin-left: 200px; */
     margin: 0 auto;
 }
 
 .imageBrand>p {
-    /* margin-left: 70px; */
     text-align: right;
 }
 
@@ -709,4 +705,32 @@ ul li {
 .scheduleButtons>button{
     background-color: rebeccapurple !important;
     border:1px solid rgb(253, 253, 253);
+}
+
+
+.popup{
+    height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: rgba(252, 246, 246, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    
+    z-index: 100000 !important;
+}
+.spinner{
+    position: absolute;
+    top: 25%;
+    left: 46%;
+    
+}
+.spinner>i{
+    color: #2b05ff;
+    font-size: 4rem;
+    text-shadow: 0.5px 0.5px 2px rgb(250, 11, 43);
+}
+.popupHide{
+    display: none;
 }
