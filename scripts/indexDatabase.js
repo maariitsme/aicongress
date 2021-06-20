@@ -18,7 +18,6 @@ function check(){
         snapshot.forEach(function(child){
         var val = child.val();
         if(val.email==email){
-            alert("Yes");
             flag = -1;
             var encrypted = CryptoJS.AES.encrypt("true", "cvrcse");
             localStorage.setItem("verified",encrypted);
@@ -28,7 +27,6 @@ function check(){
     });
     if(flag == 0){
         closeSpinner();
-        alert("no")
         window.location="/aicongress/register.html";
     }
     });
