@@ -28,6 +28,7 @@ function check(){
     if(flag == 0){
         closeSpinner();
         window.location="/aicongress/register.html";
+        // window.location="/register";
     }
     });
     return false;
@@ -39,8 +40,9 @@ function checked(){
     
     if(CryptoJS.AES.decrypt(item, "cvrcse").toString(CryptoJS.enc.Utf8)=="true")
     {
+        var url='https://cvrcoe.zoom.us/j/98641842348?pwd=WDVULy9BVU90czVLaUd4NlZNbDMvZz09'
         closeSpinner();
-        window.open("https://cvrcoe.zoom.us/j/6842415570?pwd=UGltNHBEYm94ZE9XbFh5dHE0dmo2UT09");
+        window.open(url);
         $('#joinModal').modal('hide');
     }
     else{
