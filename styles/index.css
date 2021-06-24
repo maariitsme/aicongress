@@ -688,12 +688,10 @@ ul li {
 }
 .scheduleButtons{
     margin-top: 10px;
-    /* background-color: rebeccapurple; */
     padding: 0.5rem;   
     display: flex ;
     border-radius: 10px;
     align-items: center;
-    /* flex-direction: column; */
     justify-content: space-around;
     min-width: 350px;
     max-width: 600px;
@@ -706,9 +704,10 @@ ul li {
     justify-content: space-between;
     align-items: center;
     font-weight: 700;
+    
 }
 .scheduleButtons>p>i{
-    margin-left: 10px;
+    margin-left: 0px;
     font-size: 1.2rem;
     color: rgb(231, 247, 7);
 }
